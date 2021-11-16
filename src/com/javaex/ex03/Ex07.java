@@ -7,15 +7,15 @@ public class Ex07 {
 		System.out.print("점수를 입력하세요 : ");
 		int grade=sc.nextInt();
 		if (grade>=90) {
-		System.out.println("A등급 ");
-		}else if(grade>=80){
-		System.out.println("B등급 ");
-		}else if(grade>=70) {
-		System.out.println("C등급 ");
-		}else if(grade>=60) {
-		System.out.println("D등급 ");
+			System.out.println("A등급 ");
+		}else if(90>grade && grade>=80){
+			System.out.println("B등급 ");
+		}else if(80>grade && grade>=70) {
+			System.out.println("C등급 ");
+		}else if(70>grade && grade>=60) {
+			System.out.println("D등급 ");
 		}else {
-		System.out.println("F등급 ");
+			System.out.println("F등급 ");
 		}
 		
 		
